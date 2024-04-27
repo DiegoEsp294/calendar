@@ -34,7 +34,7 @@
         
         .circular-image img {
             width: 250px; 
-            height: 350px;
+            height: 300px;
         }
     </style>
 </head>
