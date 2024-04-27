@@ -1,0 +1,33 @@
+/* Estilos para la sección de productos */
+.productos {
+    padding: 20px;
+}
+
+/* Estilos para el contenedor de productos */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Mostrar 4 columnas por fila */
+    grid-gap: 20px; /* Espacio entre los productos */
+}
+
+/* Estilos para cada producto */
+.producto {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.producto img {
+    max-width: 100%;
+}
+
+.producto h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.producto p {
+    margin-top: 5px;
+    font-size: 14px;
+}
